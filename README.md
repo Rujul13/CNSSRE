@@ -46,11 +46,11 @@ The application follows a microservice architecture:
 - Interactive: plotly
 - 3D: rgl
 
-## Issues and Solutions
+## Issues faced during implementation and Solutions
 
-### Security Concerns
-- **Issue**: Executing arbitrary code poses security risks
-- **Solution**: Implemented containerized execution with resource limitations and strict permissions
+### 3D Visulization
+- **Issue**: could not succeed in developing all the 3d Visualization and faced some hurdles 
+- **Solution**: Need to work on better implementation of the libraries and fine turning the web application 
 
 ### Cross-Origin Resource Sharing
 - **Issue**: Frontend could not access backend API due to CORS restrictions
